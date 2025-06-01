@@ -1,0 +1,28 @@
+*{
+    color: rgb(50, 174, 209);
+}
+
+body{
+    background-color: rgb(25, 23, 23);
+}
+
+label{
+    margin-right: 20px;
+    padding: 4px;
+
+}
+
+select{
+    height: 19px;   
+}
+
+.container{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+    gap: 55px;
+}

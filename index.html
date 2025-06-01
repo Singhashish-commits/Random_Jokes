@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Joke Generator</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="selection">
+
+            <label for="Joke">Select a catogry: </label>
+
+            <select name="joke Type" id="joke">
+
+                <option value="None">None</option>
+                <option value="Programming">Programming</option>
+                <option value="Misc">Misc</option>
+                <option value="Dark">Dark</option>
+                <option value="Pun">Pun</option>
+                <option value="Spookey">Spookey</option>
+                <option value="Christmas">Christmas</option>
+
+            </select>
+        </div>
+
+        <div class="JokeType">
+            <label for="Joke Types">Select Type</label>
+            <select name="JokeType" id="Type">
+                <option value="Any">Any</option>
+                <option value="Single">Single</option>
+                <option value="TWoPart">Twopart</option>
+            </select>
+        </div>
+
+        <button>Generate Joke</button>
+        <Div class="jokes"></Div>
+
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
